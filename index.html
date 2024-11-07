@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-game.css">
+</head>
+<body>
+    <h1>have u pad ur schoolfees</h1>
+    <input type="text" width="850px" placeholder="true or false" class="input1">
+    <h1>Dou have good health</h1>
+    <input type="text" width="850px"  placeholder="true or false" class="input2"><br><br>
+    <button onclick="
+    function1()
+    ">Result</button>
+    <p class="edi">rhrjj</p>
+    <script>
+    // Change this value based on the person's health status
+    function function1() {
+        let anser = document.querySelector(".input1").value
+        let anser2 = document.querySelector(".input1").value
+        if(anser2 === "true" && anser === "true" ){
+            document.querySelector(".edi").innerHTML=`Welcome to school`
+        }else {
+            document.querySelector(".edi").innerHTML=`Go home now`
+        }
+        
+
+    }
+    </script>
+</body>
+</html>
